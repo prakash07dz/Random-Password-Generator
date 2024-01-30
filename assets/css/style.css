@@ -65,9 +65,6 @@ body {
 /* responsive */
 
 @media screen and (max-width: 780px) {
-  body {
-    background-color: red;
-  }
   .container h1 {
     font-size: 35px;
 }
@@ -88,11 +85,8 @@ body {
 }
 
 @media screen and (max-width: 425px) {
-  body {
-    background-color: green;
-  }
   .container{
-    margin: 20px 5px 0 5px;
+    margin: 20px 10px 0 10px;
   }
   .container h1 {
     font-size: 22px;
@@ -102,5 +96,4 @@ body {
     width: 100%;
     padding: 10px 5px;
 }
-
 }
